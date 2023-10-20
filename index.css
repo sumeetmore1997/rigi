@@ -1,0 +1,178 @@
+body{
+    font-family: sans-serif;
+}
+
+#navbar{
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+#logo{
+    color: blue;
+    width: 30%;
+    font-family: sans-serif;
+}
+#logo h2{
+    cursor: pointer;
+}
+#pages{
+    display: flex;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+}
+#pg1{
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+#pages #pg1{
+    cursor: pointer;
+}
+#pages #pg1:hover{
+    color: red;
+}
+
+
+#hack{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: blue;
+    justify-content: center;
+    padding-top: 10px;
+}
+#hack_div1{
+    width: 40%;
+}
+#hack_div2{
+    width: 40%;
+}
+#hack_div1 h2{
+    color: white;
+    font-size: 30px;
+    width: 70%;
+    line-height: 40px;
+}
+#hack_div1 p{
+    color: white;
+    font-size: 16px;
+    width: 60%;
+    line-height: 23px;
+}
+#hack_div_btn{
+    padding: 8px 40px;
+    border-radius: 50px;
+    color: blue;
+    cursor: pointer;
+}
+#hack_div_btn:hover{
+    background-color: aliceblue;
+}
+
+
+#forbes{
+    margin: auto;
+    text-align: center;
+}
+#forbes2{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    width: 38%;
+    margin: auto;
+    line-height: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#about{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+#about2{
+    font-size: 20px;
+    font-weight: bold;
+}
+#aboutp1{
+    margin: auto;
+    width: 55%;
+    font-size: 14px;
+}
+#aboutp2{
+    margin: auto;
+    width: 55%;
+    font-size: 14px;
+}
+#aboutp3{
+    margin: auto;
+    width: 55%;
+    font-size: 14px;
+}
+
+
+#services{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+#services2{
+    font-size: 20px;
+    font-weight: bold;
+}
+#services_btn{
+    margin: auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+#services_btn button{
+    padding: 8px 40px;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+}
+#services_btn button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+#club{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#club_div1{
+    width: 40%;
+    margin-top: 5px;
+}
+#club_div2{
+    width: 40%;
+}
+#club_div2 img{
+    width: 500px;
+    height: 400px;
+}
+#club_div_btn{
+    padding: 8px 40px;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+}
+#club_div_btn:hover{
+    color: white;
+    background-color: blue;
+}
+
+
+
