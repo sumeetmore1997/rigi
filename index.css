@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-color: aliceblue;
 }
 
 #navbar{
@@ -148,9 +149,11 @@ body{
 #club{
     display: flex;
     margin: auto;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 #club_div1{
     width: 40%;
@@ -160,19 +163,139 @@ body{
     width: 40%;
 }
 #club_div2 img{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
 }
 #club_div_btn{
     padding: 8px 40px;
     border-radius: 50px;
     color: black;
     cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 #club_div_btn:hover{
     color: white;
     background-color: blue;
 }
 
+
+#main_flex{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#main_flex div img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#main_flex div{
+    width: 28%;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+}
+#main_flex div button{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 25px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+#main_flex div button:hover{
+    color: black;
+    background-color: white;
+}
+#main_flex_p1{
+    font-weight: bold;
+}
+
+
+#dream{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#dream div{
+    width: 28%;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+}
+#dream div button{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 25px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+#dream div button:hover{
+    color: black;
+    background-color: white;
+}
+#dream div img{
+    width: 20%;
+}
+#dream div #dream_under_div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    font-size: 15px;
+}
+
+
+#hotel{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+}
+#hotel div{
+    width: 28%;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px;
+}
+#hotel div img{
+    width: 20%;
+}
+#paji{
+    font-weight: bold;
+    line-height: 8px;
+}
+#paji_owner{
+    line-height: 0px;
+    font-size: 14px;
+}
+
+
+#video{
+     margin: auto;
+     margin-top: 40px;
+}
+#video img{
+    width: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+}
 
 
